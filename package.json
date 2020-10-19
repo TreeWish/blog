@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "vuepress blog",
+  "main": "index.js",
+  "author": "TreeWish",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-comment": "^0.7.3"
+  }
+}
