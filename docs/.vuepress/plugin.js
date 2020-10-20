@@ -45,5 +45,6 @@ const plugins = [
       },
     },
   ],
+  ["@vuepress/nprogress"],
 ];
 module.exports = plugins;

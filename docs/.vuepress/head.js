@@ -8,6 +8,9 @@ const head = [
     },
   ],
   ["link", { rel: "stylesheet", href: "/css/style.css" }], //
+  ["link", { rel: "icon", href: `/favicon.ico` }],
+  //增加manifest.json
+  ["link", { rel: "manifest", href: "/manifest.json" }],
   ["script", { charset: "utf-8", src: "/js/disable-user-zoom.js" }], // 移动端,禁止用户缩放,引入你写的js
 ];
-module.exports = head
+module.exports = head;
